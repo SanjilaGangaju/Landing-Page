@@ -3,8 +3,8 @@ import "./Header.css"
 import Navbar from "../Navbar/Navbar"
 const Header = () => {
   return (
-    <header>
-        <div className='wrapper flex justify-between items-center p-5 '>
+    <header >
+        <div className='wrapper flex justify-between items-center pt-5 '>
             <div className='font-[roboto] text-[36px] font-bold text-[#42A7C3]'>
                 Travling!
             </div>

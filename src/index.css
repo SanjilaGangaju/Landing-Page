@@ -3,9 +3,16 @@
 body{
     margin:0;
     padding: 0;
+    background-image: linear-gradient(#c4e8f1,#ffff, #c4e8f1);
 }
 .wrapper{
     max-width: 1280px;
     margin : 0 auto;
 
+}
+.small-text{
+    color: #8F8F8F;
+}
+.title{
+    color: #333333;
 }
