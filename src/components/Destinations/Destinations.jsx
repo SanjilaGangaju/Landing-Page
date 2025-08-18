@@ -4,7 +4,7 @@ import destinations from "./destination_detail"
 const Destinations = () => {
   return (
     <section>
-    <div className='wrapper pt-5 flex flex-col gap-10'>
+    <div className='wrapper py-[6rem] flex flex-col gap-10'>
         <div className='flex flex-col gap-2'>
              <h2 className='title font-bold font-[poppins] text-2xl'>Popular Destinations</h2>
            <p className='small-text text-md'>Vacations to make your experience enjoyable in Indonesia!</p>
@@ -17,7 +17,7 @@ const Destinations = () => {
 
       </div>
     </div>
-   sghaahh
+
       
     </section>
   )
