@@ -6,9 +6,30 @@ const Hero = () => {
         <div className='wrapper grid grid-cols-2 justify-center  items-center gap-[26px]'>
              <div className='flex flex-col gap-[32px] w-full '>
             <h1 className='font-[poppins] text-[#333333] font-bold text-[56px]'>Start your journey by one click, explore beautiful world!</h1>
-            <p className='font-[poppins] text-[#333333] text-[16px]'>Plan and book your perfect trip with expert advice, travel tips, destination informatin and inspiration from us!</p>
-            <div className='flex gap-6'><img src="/images/download.png"></img>
-            <img  src="/images/download (1).png"></img>
+            <p className='font-[poppins] text-[#333333]  text-[16px]'>Plan and book your perfect trip with expert advice, travel tips, destination informatin and inspiration from us!</p>
+            <div className='flex gap-6'>
+            <div className='bg-[#1d1d1d] max-h-9 cursor-pointer flex items-center justify-center gap-2 p-1 px-2 hover:bg-[black] rounded'>
+              <div>
+                 <img className="w-full" src="/images/playstoreicon.png"></img>
+              </div>
+             
+              <div className='flex flex-col'>
+                <span className='text-gray-50 text-[10px] font-bold'>GET IT ON</span>
+              <span className='text-gray-50 text-[16px] font-bold'>Google Play</span>
+              </div>
+              </div>
+              
+            <div className='bg-[#1d1d1d] cursor-pointer flex items-center max-h-9 justify-center hover:bg-[black] p-1 px-2 gap-2 rounded'>
+              <div>
+                 <img className="w-full" src="/images/applelogo.png"></img>
+              </div>
+             
+              <div className='flex flex-col'>
+                <span className='text-gray-50 text-[10px] font-bold'>DOWNLOAD ON THE</span>
+              <span className='text-gray-50 text-[16px] font-bold'>App Store</span>
+              </div>
+              </div>
+              
             </div>
         </div>
         <div>

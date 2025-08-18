@@ -10,7 +10,7 @@ const Header = () => {
             </div>
             <Navbar></Navbar>
             <div className='flex items-center  justify-center'>
-                <button className='rounded-md px-3 py-2 bg-[#FA8443] text-gray-50 font-[lato] font-bold text-[16px]'>Sign Up</button>
+                <button className='rounded-md px-3 py-2 bg-[#FA8443] text-gray-50 cursor-pointer hover:bg-orange-400 font-[lato] font-bold text-[16px]'>Sign Up</button>
             </div>
         </div>
 
