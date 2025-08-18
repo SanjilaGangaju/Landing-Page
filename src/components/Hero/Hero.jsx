@@ -45,7 +45,7 @@ const Hero = () => {
 
                 </div>
                 <div className='absolute top-1/3  left-70 z-[2]'>
-                          <Cards title="Explore Labuan Pajo" w="small" img="/images/Rectangle 9.png" location="NTT, indonesia"></Cards>
+                          <Cards title="LePirate Hotel" w="small" img="/images/Rectangle 9.png" location="Flores, indonesia"></Cards>
 
                 </div>
                 <div className='absolute top-5 left-1/10'>
