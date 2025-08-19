@@ -1,5 +1,5 @@
 import React from 'react'
-import {Choose, Destinations, Header, Hero, Vacation} from "./components"
+import {Choose, Destinations, Footer, Header, Hero, Vacation} from "./components"
 import { BrowserRouter as Router , Routes , Route } from 'react-router'
 const App = () => {
   return (
@@ -13,6 +13,7 @@ const App = () => {
          <Destinations></Destinations>
          <Choose></Choose>
          <Vacation></Vacation>
+         <Footer></Footer>
       </Router>
        
         

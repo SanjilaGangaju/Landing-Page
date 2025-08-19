@@ -5,4 +5,5 @@ import Destinations from "./Destinations/Destinations";
 import Choose from "./ChooseSection/Choose";
 import Vacation from "./Vacation/Vacation";
 import DragCard from "./DragCard/DragCard";
-export {Header, Hero, Cards, Destinations, Choose, Vacation, DragCard};
+import Footer from "./Footer/Footer";
+export {Header, Hero, Cards, Destinations, Choose, Vacation, DragCard, Footer};
