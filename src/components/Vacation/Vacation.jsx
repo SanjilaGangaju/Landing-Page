@@ -4,7 +4,7 @@ import DragCard from '../DragCard/DragCard'
 const Vacation = () => {
   return (
     <section>
-    <div className='wrapper flex items-center flex-col py-[3rem]'>
+    <div className='wrapper flex items-center flex-col pt-[3rem]'>
         <div className='flex flex-col items-center'>
              <h2 className='title text-2xl font-bold font-[poppins]'>Plan Your Vacation!</h2>
         <p className='small-text text-[16px]  w-90 text-center'>For many people organizing a trip is a headache. Register to be able to jointly determine vacation destinations and dates</p>

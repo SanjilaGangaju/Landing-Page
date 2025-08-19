@@ -5,11 +5,11 @@ import { FaFacebook } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className='-mt-20'>
         <div className='bg-blue-400 rounded-t-xl relative  max-h-86 overflow-hidden'>
             <div className='-translate-x-40  translate-y-10 '>
                 <img className='opacity-[0.43]' src="/images/bg.png"></img>
-                <div className='absolute left-75 top-0 w-[70%]  flex flex-col gap-10'>
+                <div className='absolute left-50 top-0 w-[90%]  flex flex-col gap-10'>
                      <div className=' bg-white/20 px-6 py-7 border border-gray-50 gap-8 backdrop-blur-xs rounded-md flex items-center justify-between'>
                    <div >
                      <p className='text-white text-[0.8rem]'>Prepare yourself to be part of exploration of</p>
