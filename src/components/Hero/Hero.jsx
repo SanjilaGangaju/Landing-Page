@@ -3,9 +3,9 @@ import Cards from '../Card/Cards'
 const Hero = () => {
   return (
     <main>
-        <div className='wrapper grid grid-cols-2 justify-center  items-center gap-[26px]'>
+        <div className='wrapper grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 justify-center  items-center gap-[26px]'>
              <div className='flex flex-col gap-[32px] w-full '>
-            <h1 className='font-[poppins] text-[#333333] font-bold text-[56px]'>Start your journey by one click, explore beautiful world!</h1>
+            <h1 className='font-[poppins] text-[#333333] font-bold text-[36px] md:text-[56px] '>Start your journey by one click, explore beautiful world!</h1>
             <p className='font-[poppins] text-[#333333]  text-[16px]'>Plan and book your perfect trip with expert advice, travel tips, destination informatin and inspiration from us!</p>
             <div className='flex gap-6'>
             <div className='bg-[#1d1d1d] max-h-9 cursor-pointer flex items-center justify-center gap-2 p-1 px-2 hover:bg-[black] rounded'>
@@ -36,7 +36,7 @@ const Hero = () => {
             
             <div className='relative w-full'>
                 <img  src="/images/bg.png"></img>
-                <div className='absolute w-90 h-90 overflow-hidden left-55 top-46 z-[1]  transform -translate-x-50 -translate-y-40  rounded-full' >
+                <div className='absolute w-full h-full overflow-hidden left-55 top-46 z-[1]  transform -translate-x-50 -translate-y-40  rounded-full' >
                   <img className="rounded-full  w-full h-full object-contain" src="/images/heroimage.png"></img>
                   
                 </div>

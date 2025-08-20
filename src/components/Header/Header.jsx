@@ -20,7 +20,7 @@ const Header = () => {
              <RxHamburgerMenu >dgdg</RxHamburgerMenu>
 
             </button>
-             {ishamOn&&(
+             {ishamOn&&( 
                  <div className='absolute w-1/2 right-0  h-50 flex flex-col gap-2 items-center justify-center bg-blue-100 top-20 '>
                   <IoMdClose onClick={()=>sethamOn(!ishamOn)} className='ml-[50%]'></IoMdClose>
             <Navbar></Navbar>
