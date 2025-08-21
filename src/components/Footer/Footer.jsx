@@ -6,8 +6,8 @@ import { FaFacebook } from "react-icons/fa";
 const Footer = () => {
   
   return (
-    <footer className=''>
-        <div className='bg-blue-400  relative  md:h-[21rem] lg:h-[20rem] h-[45rem] overflow-hidden'>
+    <footer className='bg-red-100 w-full'>
+        <div className='bg-blue-400  relative  md:h-[21rem] lg:h-[20rem] h-[47rem] py-[2rem] lg:py-[5rem] px-2 lg:px-[12] overflow-hidden'>
             <div className='-translate-x-40  translate-y-10 '>
                 <img className='opacity-[0.43]' src="/images/bg.png"></img>
                 <div className='absolute left-0  top-0 translate-x-44  md:w-[96.6%] lg:w-[96%] w-[90%]  flex flex-col  gap-8'>
@@ -36,23 +36,23 @@ const Footer = () => {
                     <div className='flex flex-col text-white text-s  gap-2 '>
                         <p className='text-[19px font-bold]'>Get the App</p>
                          <div className='flex  flex-col md:flex-row lg:flex-row gap-6'>
-            <div className='bg-[#1d1d1d] max-h-9 max-w-[50%] cursor-pointer flex items-center justify-center gap-2 py-2 px-2 hover:bg-[black] rounded'>
-              <div>
+            <div className='bg-[#1d1d1d] max-h-10 max-w-[60%] cursor-pointer flex items-center justify-center gap-2 py-2 px-2 hover:bg-[black] rounded'>
+              <div className='w-1/5'>
                  <img className="w-full" src="/images/playstoreicon.png"></img>
               </div>
              
-              <div className='flex flex-col'>
+              <div className='flex flex-col w-full'>
                 <span className='text-gray-50 text-[10px] font-bold'>GET IT ON</span>
               <span className='text-gray-50 text-[16px] font-bold'>Google Play</span>
               </div>
               </div>
               
-            <div className='bg-[#1d1d1d] max-w-[50%] cursor-pointer flex items-center max-h-9 justify-center hover:bg-[black] p-1 px-2 gap-2 rounded'>
-              <div>
+            <div className='bg-[#1d1d1d] max-w-[60%] cursor-pointer flex items-center max-h-10 justify-center hover:bg-[black] py-2 px-2 gap-2 rounded'>
+              <div className='w-1/5'>
                  <img className="w-full" src="/images/applelogo.png"></img>
               </div>
              
-              <div className='flex flex-col'>
+              <div className='flex flex-col w-full'>
                 <span className='text-gray-50 text-[10px] font-bold'>DOWNLOAD ON THE</span>
               <span className='text-gray-50 text-[16px] font-bold'>App Store</span>
               </div>

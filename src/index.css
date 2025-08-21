@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+@theme {
+  --breakpoint-3xl: 1920px;   /* Full HD+ screens */
+  --breakpoint-4xl: 2560px;   /* 4K / 2K monitors */
+}
+
 body{
     margin:0;
     padding: 0;
@@ -9,6 +14,21 @@ body{
     max-width: 1280px;
     margin : 0 auto;
 
+}
+@media (width >= 1920px) {
+  .wrapper {
+    max-width: 100px;
+    margin: 0 auto;
+  }
+}
+
+/* At ≥2560px (4xl / 4K) */
+@media (width >= 2560px) {
+  .wrapper {
+    max-width: 2560px; /* or 2560px if you want full */
+    margin: 0 auto;
+
+  }
 }
 .small-text{
     color: #8F8F8F;
