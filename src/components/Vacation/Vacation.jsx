@@ -12,7 +12,7 @@ const Vacation = () => {
         </div>
        
         <div className='h-full relative w-full flex items-center justify-center'>
-            <img className="w-[100%] opacity-[0.9] md:opacity-[0.5] lg:opacity-[0.5] h-1/1 object-cover" src="/images/hexagonworld.png"></img>
+            <img className="md:w-[90%] lg:w-[90%] w-[100%] opacity-[0.9] md:opacity-[0.5] lg:opacity-[0.5] h-1/1 object-cover" src="/images/hexagonworld.png"></img>
             <div className='absolute left-50 hidden md:flex top-30'>
               <DragCard  src="" title="De Pavijoen Bandung" category="Hotel" span1="1 Kamar" span2="2 Orang" span3="Check-in 13:00"></DragCard>
 

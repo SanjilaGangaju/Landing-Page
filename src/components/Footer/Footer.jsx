@@ -7,10 +7,10 @@ const Footer = () => {
   
   return (
     <footer className=''>
-        <div className='bg-blue-400 rounded-t-xl relative  md:h-[21rem] lg:h-[20rem] h-[45rem] overflow-hidden'>
+        <div className='bg-blue-400  relative  md:h-[21rem] lg:h-[20rem] h-[45rem] overflow-hidden'>
             <div className='-translate-x-40  translate-y-10 '>
                 <img className='opacity-[0.43]' src="/images/bg.png"></img>
-                <div className='absolute left-0  top-0 translate-x-44  md:w-[96%} lg:w-[96%] w-[90%]  flex flex-col  gap-8'>
+                <div className='absolute left-0  top-0 translate-x-44  md:w-[96.6%] lg:w-[96%] w-[90%]  flex flex-col  gap-8'>
                      <div className=' bg-white/20 px-6 py-7 border border-gray-50 gap-8 backdrop-blur-xs rounded-md flex flex-col md:flex-row items-center justify-between'>
                    <div>
                      <p className='text-white text-[0.9rem]'>Prepare yourself to be part of exploration of</p>
