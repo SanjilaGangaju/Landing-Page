@@ -4,6 +4,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 
 const Footer = () => {
+  
   return (
     <footer className='-mt-20'>
         <div className='bg-blue-400 rounded-t-xl relative  max-h-86 overflow-hidden'>
