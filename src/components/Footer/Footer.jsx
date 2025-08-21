@@ -6,15 +6,15 @@ import { FaFacebook } from "react-icons/fa";
 const Footer = () => {
   
   return (
-    <footer className='-mt-20'>
-        <div className='bg-blue-400 rounded-t-xl relative  max-h-86 overflow-hidden'>
+    <footer className=''>
+        <div className='bg-blue-400 rounded-t-xl relative  md:h-[21rem] lg:h-[20rem] h-[45rem] overflow-hidden'>
             <div className='-translate-x-40  translate-y-10 '>
                 <img className='opacity-[0.43]' src="/images/bg.png"></img>
-                <div className='absolute left-50 top-0 w-[90%]  flex flex-col gap-10'>
-                     <div className=' bg-white/20 px-6 py-7 border border-gray-50 gap-8 backdrop-blur-xs rounded-md flex items-center justify-between'>
-                   <div >
-                     <p className='text-white text-[0.8rem]'>Prepare yourself to be part of exploration of</p>
-                    <p className='text-white text-2xl font-bold font-[lato]'>The Beauty of Indonesia</p>
+                <div className='absolute left-0  top-0 translate-x-44  md:w-[96%} lg:w-[96%] w-[90%]  flex flex-col  gap-8'>
+                     <div className=' bg-white/20 px-6 py-7 border border-gray-50 gap-8 backdrop-blur-xs rounded-md flex flex-col md:flex-row items-center justify-between'>
+                   <div>
+                     <p className='text-white text-[0.9rem]'>Prepare yourself to be part of exploration of</p>
+                    <p className='text-white text-3xl font-bold font-[lato]'>The Beauty of Indonesia</p>
                    </div>
                    <div className='flex flex-col items-center justify-between gap-2'>
                     <button className='bg-blue-500 w-30 rounded h-7 text-[16px] text-white hover:text-black hover:bg-gray-50'>Sign In</button>
@@ -22,11 +22,11 @@ const Footer = () => {
                    </div>
                    
                 </div>
-                <div className='bottom-5 left-1/2 z-[20] w-full'>
-                   <div className='flex justify-between border-b pb-4 text-white'>
+                <div className='bottom-5 left-1/2 z-[20] w-[100%]'>
+                   <div className='flex flex-col md:flex-row  gap-1 lg:flex-row justify-between border-b pb-4 text-white'>
                     <div className='flex flex-col gap-2'>
                         <span className='font-bold text-xl'>Travling!</span>
-                        <div className='flex gap-6  text-[0.7rem]'>
+                        <div className='flex gap-6 flex-col md:flex-row md:flex-rwo  text-[0.7rem]'>
                             <Link className='text-gray-100' to="">Product</Link>
                             <Link className='text-gray-100' to="">Contact us</Link>
                             <Link className='text-gray-100' to="">Privacy Policy</Link>
@@ -34,9 +34,9 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className='flex flex-col text-white text-s  gap-2 '>
-                        <p className='text-[15px]'>Get the App</p>
-                         <div className='flex gap-6'>
-            <div className='bg-[#1d1d1d] max-h-9 cursor-pointer flex items-center justify-center gap-2 p-1 px-2 hover:bg-[black] rounded'>
+                        <p className='text-[19px font-bold]'>Get the App</p>
+                         <div className='flex  flex-col md:flex-row lg:flex-row gap-6'>
+            <div className='bg-[#1d1d1d] max-h-9 max-w-[50%] cursor-pointer flex items-center justify-center gap-2 py-2 px-2 hover:bg-[black] rounded'>
               <div>
                  <img className="w-full" src="/images/playstoreicon.png"></img>
               </div>
@@ -47,7 +47,7 @@ const Footer = () => {
               </div>
               </div>
               
-            <div className='bg-[#1d1d1d] cursor-pointer flex items-center max-h-9 justify-center hover:bg-[black] p-1 px-2 gap-2 rounded'>
+            <div className='bg-[#1d1d1d] max-w-[50%] cursor-pointer flex items-center max-h-9 justify-center hover:bg-[black] p-1 px-2 gap-2 rounded'>
               <div>
                  <img className="w-full" src="/images/applelogo.png"></img>
               </div>

@@ -3,7 +3,7 @@ import React from 'react'
 const Choose = () => {
   return (
     <section>
-      <div className='wrapper py-[2rem] grid grid-cols-2 gap-8'>
+      <div className='wrapper py-[2rem] grid grid-cols-1 px-2 md:grid-cols-2 gap-8'>
         <div className='relative w-[100%] z-[0] rounded-full    '>
           <img className="w-full  object-contain rounded-full" src='/images/world.png'></img>
           <div className='absolute w-full  bottom-0 left-1 z-[10] bg-tranparent rounded-full '>
