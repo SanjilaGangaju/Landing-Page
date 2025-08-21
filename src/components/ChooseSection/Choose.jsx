@@ -3,7 +3,7 @@ import React from 'react'
 const Choose = () => {
   return (
     <section>
-      <div className='wrapper py-[2rem] grid grid-cols-1 px-2 md:grid-cols-2 gap-8'>
+      <div className='wrapper py-[1rem] grid grid-cols-1 px-2  md:grid-cols-2 gap-8'>
         <div className='relative w-[100%] z-[0] rounded-full    '>
           <img className="w-full  object-contain rounded-full" src='/images/world.png'></img>
           <div className='absolute w-full  bottom-0 left-1 z-[10] bg-tranparent rounded-full '>
@@ -11,9 +11,9 @@ const Choose = () => {
           </div>
         </div>
         <div className='flex flex-col gap-10'>
-          <div className='flex flex-col gap-3'>
-              <h2 className='title font-bold text-2xl'>Why Choose Us</h2>
-          <p className='text-md w-[25rem]'>Enjoy different experiences in every place you visit and discover new and affordable adventures of course.</p>
+          <div className='flex items-center justify-center flex-col gap-3'>
+              <h2 className='title font-bold text-2xl font-[poppins] text-center'>Why Choose Us</h2>
+          <p className='text-md text-center  md:w-[25rem] lg:w-[27rem]'>Enjoy different experiences in every place you visit and discover new and affordable adventures of course.</p>
           </div>
           <div className='flex flex-col font-[lato] gap-6'>
             <div className='flex gap-4 p-2  hover:bg-white hover:shadow-xl hover:rounded-md'>

@@ -35,7 +35,7 @@ const Cards = ({location, img, title, w="medium", price, duration, per}) => {
                <p className='title text-base font-bold font-[lato] h-5 line-clamp-2 '>{title}</p>
                <p className='text-gray-600 text-sm font-normal'>{duration} Days</p>
             <div> 
-              <span className='text-[#42a7c3]  text-[17px] font-bold font-[lato]'>Rp {price}</span>
+              <span className='text-[#42a7c3]  text-[15px] font-bold font-[lato]'>Rp {price}</span>
                <span className='text-[#347f90] text-[0.7rem]'>/{per}</span>
             </div>     
 

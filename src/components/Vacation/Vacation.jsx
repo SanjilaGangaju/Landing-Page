@@ -4,20 +4,20 @@ import DragCard from '../DragCard/DragCard'
 const Vacation = () => {
   return (
     <section>
-    <div className='wrapper flex items-center flex-col pt-[3rem]'>
+    <div className='wrapper flex items-center flex-col pt-[1rem] px-2'>
         <div className='flex flex-col items-center'>
              <h2 className='title text-2xl font-bold font-[poppins]'>Plan Your Vacation!</h2>
-        <p className='small-text text-[16px]  w-90 text-center'>For many people organizing a trip is a headache. Register to be able to jointly determine vacation destinations and dates</p>
+        <p className='small-text text-[16px]  w-[90%] text-center'>For many people organizing a trip is a headache. Register to be able to jointly determine vacation destinations and dates</p>
 
         </div>
        
-        <div className='h-1/2 relative w-full flex items-center justify-center'>
-            <img className="w-[90%] opacity-[0.5] h-1/2 -mt-32 object-cover" src="/images/hexagonworld.png"></img>
-            <div className='absolute left-50 top-30'>
+        <div className='h-full relative w-full flex items-center justify-center'>
+            <img className="w-[100%] opacity-[0.9] md:opacity-[0.5] lg:opacity-[0.5] h-1/1 object-cover" src="/images/hexagonworld.png"></img>
+            <div className='absolute left-50 hidden md:flex top-30'>
               <DragCard  src="" title="De Pavijoen Bandung" category="Hotel" span1="1 Kamar" span2="2 Orang" span3="Check-in 13:00"></DragCard>
 
             </div>
-           <div className='absolute left-50 top-30'>
+           <div className='absolute left-50 hidden lg:flex md:flex top-30'>
   <DragCard  
     src="/images/Rectangle 9 (1).png" 
     title="De Pavijoen Bandung" 
@@ -28,7 +28,7 @@ const Vacation = () => {
   />
 </div>
 
-<div className='absolute right-20 top-40'>
+<div className='absolute right-20 top-40 hidden lg:flex md:flex'>
   <DragCard  
     src="/images/Rectangle 9.png" 
     title="City Tour Bandung" 
@@ -39,7 +39,7 @@ const Vacation = () => {
   />
 </div>
 
-<div className='absolute left-40 bottom-70'>
+<div className='absolute left-40 bottom-70 hidden lg:flex md:flex'>
   <DragCard  
     src="/images/Rectangle 9 (2).png" 
     title="Garuda Indonesia - Jakarta" 
@@ -50,7 +50,7 @@ const Vacation = () => {
   />
 </div>
 
-<div className='absolute right-20 bottom-70'>
+<div className='absolute right-20 hidden md:flex lg:flex bottom-70'>
   <DragCard  
     src="/images/Rectangle 9 (3).png" 
     title="Rental Mobil Bandung" 
