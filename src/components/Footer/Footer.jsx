@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router'
+
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 
@@ -27,10 +27,10 @@ const Footer = () => {
                     <div className='flex flex-col gap-2'>
                         <span className='font-bold text-xl'>Travling!</span>
                         <div className='flex gap-6 flex-col md:flex-row md:flex-rwo  text-[0.7rem]'>
-                            <Link className='text-gray-100' to="">Product</Link>
-                            <Link className='text-gray-100' to="">Contact us</Link>
-                            <Link className='text-gray-100' to="">Privacy Policy</Link>
-                            <Link className='text-gray-100' to="">About Us</Link>
+                            <span className='text-gray-100' >Product</span>
+                            <span className='text-gray-100' >Contact us</span>
+                            <span className='text-gray-100' >Privacy Policy</span>
+                            <span className='text-gray-100'>About Us</span>
                         </div>
                     </div>
                     <div className='flex flex-col text-white text-s  gap-2 '>
