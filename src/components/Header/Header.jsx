@@ -13,7 +13,7 @@ const Header = () => {
             <div className='font-[roboto] text-[36px] 3xl:text-5xl 4xl:text-5xl font-bold text-[#42A7C3]'>
                 Travling!
             </div>
-            <div className='hidden md:flex flex-1 justify-center'>
+            <div className='hidden md:flex lg:flex flex-1 justify-center'>
               <Navbar></Navbar>
             </div>
             
@@ -25,7 +25,7 @@ const Header = () => {
             </div>
            
            
-            <button onClick={()=>sethamOn(!ishamOn)} className='md:hidden lg:hidden'>
+            <button onClick={()=>sethamOn(!ishamOn)} className='md:hidden lg:hidden flex'>
 
              <RxHamburgerMenu ></RxHamburgerMenu>
 

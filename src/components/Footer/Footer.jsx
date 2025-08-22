@@ -6,8 +6,8 @@ import { FaFacebook } from "react-icons/fa";
 const Footer = () => {
   
   return (
-    <footer className='bg-red-100 w-full'>
-        <div className='bg-blue-400  relative  md:h-[21rem] lg:h-[20rem] h-[47rem] py-[2rem] lg:py-[5rem] px-2 lg:px-[12] overflow-hidden'>
+    <footer className='w-full '>
+        <div className='relative bg-blue-300 h-[45rem] md:h-[23rem] lg:h-[21rem] overflow-hidden'>
             <div className='-translate-x-40  translate-y-10 '>
                 <img className='opacity-[0.43]' src="/images/bg.png"></img>
                 <div className='absolute left-0  top-0 translate-x-44  md:w-[96.6%] lg:w-[96%] w-[90%]  flex flex-col  gap-8'>
@@ -35,8 +35,8 @@ const Footer = () => {
                     </div>
                     <div className='flex flex-col text-white text-s  gap-2 '>
                         <p className='text-[19px font-bold]'>Get the App</p>
-                         <div className='flex  flex-col md:flex-row lg:flex-row gap-6'>
-            <div className='bg-[#1d1d1d] max-h-10 max-w-[60%] cursor-pointer flex items-center justify-center gap-2 py-2 px-2 hover:bg-[black] rounded'>
+                         <div className='flex flex-col md:flex-row   lg:flex-row gap-1 items-start p-1 '>
+            <div className='bg-[#1d1d1d] cursor-pointer flex items-center justify-center gap-2 py-2 px-2 hover:bg-[black] rounded'>
               <div className='w-1/5'>
                  <img className="w-full" src="/images/playstoreicon.png"></img>
               </div>
@@ -47,7 +47,7 @@ const Footer = () => {
               </div>
               </div>
               
-            <div className='bg-[#1d1d1d] max-w-[60%] cursor-pointer flex items-center max-h-10 justify-center hover:bg-[black] py-2 px-2 gap-2 rounded'>
+            <div className='bg-[#1d1d1d] cursor-pointer flex items-center  justify-center hover:bg-[black] py-2 px-2 gap-2 rounded'>
               <div className='w-1/5'>
                  <img className="w-full" src="/images/applelogo.png"></img>
               </div>
@@ -61,7 +61,7 @@ const Footer = () => {
             </div>
                     </div>
                    </div>
-                   <div className='flex justify-between py-5 text-white'>
+                   <div className='flex justify-between pt-3 text-white'>
                     <span className='text-[16px]'>
                         @2025 Travling.com
                     </span>
