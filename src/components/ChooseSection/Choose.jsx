@@ -5,9 +5,9 @@ const Choose = () => {
     <section>
       <div className='wrapper py-[2rem] lg:py-[5rem] lg:px-12 grid grid-cols-1 px-2  md:grid-cols-2 gap-10'>
         <div className='relative w-[100%] z-[0] rounded-full    '>
-          <img className="w-full  object-contain rounded-full" src='/images/world.png'></img>
+          <img className="w-full  object-contain rounded-full" src='/images/world.png' alt="world hex image"></img>
           <div className='absolute w-full  bottom-0 left-1 z-[10] bg-tranparent rounded-full '>
-            <img  className="h-full w-full object-contain  rounded-b-full" src='/images/man-woman.png'></img>
+            <img  className="h-full w-full object-contain  rounded-b-full" src='/images/man-woman.png' alt="illustration of man and woman travelling"></img>
           </div>
         </div>
         <div className='flex flex-col gap-10'>
@@ -18,7 +18,7 @@ const Choose = () => {
           <div className='flex flex-col font-[lato] gap-6'>
             <div className='flex gap-4 p-2  hover:bg-white hover:shadow-xl hover:rounded-md'>
               <div>
-                <img src="/images/flight.png"></img>
+                <img src="/images/flight.png" alt="fligt icon"></img>
               </div>
               <div className='flex flex-col gap-1'>
                 <p className='title font-bold text-s lg:text-2xl'> Flight Ticket</p>
