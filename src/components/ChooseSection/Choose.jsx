@@ -13,7 +13,7 @@ const Choose = () => {
         <div className='flex flex-col gap-10'>
           <div className='flex items-center justify-center flex-col gap-3'>
               <h2 className='title font-bold text-2xl font-[poppins] text-center lg:text-6xl'>Why Choose Us?</h2>
-          <p className='text-md text-center lg:text-xl md:w-[25rem] lg:w-[39rem]'>Enjoy different experiences in every place you visit and discover new and affordable adventures of course.</p>
+          <p className='text-md text-center lg:text-xl md:w-[25rem] lg:w-[23rem]'>Enjoy different experiences in every place you visit and discover new and affordable adventures of course.</p>
           </div>
           <div className='flex flex-col font-[lato] gap-6'>
             <div className='flex gap-4 p-2  hover:bg-white hover:shadow-xl hover:rounded-md'>
