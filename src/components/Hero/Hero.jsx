@@ -94,9 +94,9 @@ const Hero = () => {
             </div>
 
             {/* Flight badge */}
-            <div className="absolute top-[20%] left-[70%] md:left-[70%] lg:left-[80%] bg-gray-50 flex items-center justify-center gap-1 py-1 px-2 rounded-full w-[15%]">
+            <div className="absolute top-[20%] left-[70%] md:left-[70%] lg:left-[80%] bg-gray-50 flex items-center justify-center gap-1 py-1 px-2 rounded-full ">
               <img
-                className="w-4 h-4 lg:w-10 lg:h-5"
+                className="w-4 h-4 lg:w-5 lg:h-5"
                 src="/images/ic_baseline-flight.png"
                 alt="flight"
               />
