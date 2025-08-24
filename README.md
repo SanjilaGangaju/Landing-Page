@@ -8,6 +8,8 @@ This project was built with aim of converting the figma design into real website
 * Tailwind Css
 * React Icons
 * Vite
-  
+
+## Screenshots
+![site image](/images/ss.jpeg)
 
 
