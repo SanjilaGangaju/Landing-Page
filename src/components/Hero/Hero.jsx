@@ -100,7 +100,7 @@ const Hero = () => {
                 src="/images/ic_baseline-flight.png"
                 alt="flight"
               />
-              <p className="text-[11px] md:text-[13px] lg:text-[25px]">Jakarta</p>
+              <p className="text-[11px] md:text-[13px] lg:text-[15px]">Jakarta</p>
             </div>
           </div>
         </div>
