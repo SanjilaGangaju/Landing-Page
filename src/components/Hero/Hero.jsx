@@ -8,7 +8,7 @@ const Hero = () => {
         
         {/* LEFT SIDE (text + buttons) */}
         <div className="flex flex-col gap-[39px] w-full sm:order-2 md:order-1 lg:order-1 order-2">
-          <h1 className="font-[poppins] text-[#333333] font-bold text-[36px] md:text-[56px] lg:text-[5rem]">
+          <h1 className="font-[poppins] text-[#333333] font-bold text-[36px] md:text-[56px] lg:text-[3rem]">
             Start your journey by one click, explore beautiful world!
           </h1>
           <p className="font-[poppins] text-[#333333] text-[16px] md:text-lg lg:text-xl">
