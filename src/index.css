@@ -1,5 +1,7 @@
 @import "tailwindcss";
-
+::-webkit-scrollbar{
+  display: none;
+}
 @theme {
   --breakpoint-3xl: 1920px;   /* Full HD+ screens */
   --breakpoint-4xl: 2560px;   /* 4K / 2K monitors */
