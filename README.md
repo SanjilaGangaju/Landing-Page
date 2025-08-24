@@ -10,6 +10,6 @@ This project was built with aim of converting the figma design into real website
 * Vite
 
 ## Screenshots
-![site image](/images/ss.jpeg)
+![site image](/public/images/ss.jpeg)
 
 
