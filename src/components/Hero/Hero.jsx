@@ -94,13 +94,13 @@ const Hero = () => {
             </div>
 
             {/* Flight badge */}
-            <div className="absolute top-[20%] left-[70%] md:left-[70%] lg:left-[80%] bg-gray-50 flex items-center justify-center gap-1 py-1 px-2 rounded-full ">
+            <div className="absolute top-[20%] left-[70%] md:left-[70%] lg:left-[80%] bg-gray-50 flex items-center justify-center gap-1 py-1 px-3 rounded-full ">
               <img
-                className="w-4 h-4 lg:w-5 lg:h-5"
+                className="w-4 h-4 lg:w-5 lg:h-4"
                 src="/images/ic_baseline-flight.png"
                 alt="flight"
               />
-              <p className="text-[11px] md:text-[13px] lg:text-[15px]">Jakarta</p>
+              <p className="text-[11px] md:text-[13px] lg:text-[12px]">Jakarta</p>
             </div>
           </div>
         </div>
